@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC');
+body {
+   background-color: #c4b6ef;
+}
+
+.calc-wrapper {
+   display: flex;
+   justify-content: center;
+}
+
+.calc {
+   margin: 10% 0 10% 0;
+   background-color: #dfd8d0;
+   width: 300px;
+   border-radius: 20px;
+   border: 2px solid #d2cfcb;
+   height: 410px;
+   box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.clac-title p {
+   font-size: 25px;
+   margin: 5px 0 7px 0;
+   font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.clac-monitor {
+   margin: 0 auto;
+   height: 70px;
+   width: 90%;
+   border: 8px solid #bfbfaf;
+   background-color: #c3c2ab;
+}
+
+.calc-body {
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   width: 85%;
+   border: 2px solid #bfbfaf;
+   /*height: 50%; */
+   margin: 0 auto;
+   height: auto;
+   
+}
+
+button {
+   border-radius: 8px;
+   border: none;
+   background-color: #3a3a3a;
+   margin: 4px 4px 4px 4px;
+   height: 40px;
+   width: 50px;
+   box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+#plus {
+   
+}
