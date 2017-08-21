@@ -25,15 +25,15 @@
       <div class="calc-wrapper">
          <div class="calc">
 
-            <div class="clac-title has-text-centered">
+            <div class="calc-title has-text-centered">
                <p><b>simple calculator</b></p>
             </div>
 
-            <div class="clac-monitor">
-               
+            <div id="answer" class="calc-monitor">
+
             </div>
             <br>
-            <div id="as" class="calc-body">
+            <div id="keys" class="calc-body">
 
                <a class="button is-hovered is-dark">CE</a>
                <a class="button is-hovered is-dark">&divide;</a>
@@ -41,8 +41,8 @@
                <a class="button is-hovered is-dark">.</a>
 
 
-               <a class="button is-hovered is-dark">7</a>
-               <a class="button is-hovered is-dark">8</a>
+               <a class="button is-hovered is-dark" data-value="7">7</a>
+               <a class="button is-hovered is-dark" data-value="8">8</a>
                <a class="button is-hovered is-dark">9</a>
                <a class="button is-hovered is-dark" id="plus">+</a>
 
@@ -63,6 +63,32 @@
          </div>
       </div>
    </section>
+   <!-- footer last element of page -->
+   <footer class="footer">
+         <div class="container">
+             <div class="content has-text-centered">
+                 <p>
+                     <a class="icon" href="https://www.freecodecamp.com/amid11">
+                         <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                     </a> &nbsp;
+                     <a class="icon" href="https://github.com/amid11">
+                         <i class="fa fa-github"></i>
+ 
+                     </a>
+                     &nbsp;
+                     <a class="icon" href="https://twitter.com/">
+                         <i class="fa fa-twitter"></i>
+                     </a>
+                 </p>
+                 <p>
+                     
+                     <br> The source code is licensed under
+                     <a href="https://opensource.org/licenses/mit-license.php">MIT</a>.
+                 </p>
+             </div>
+         </div>
+     </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="app.js"></script>
 </body>
 

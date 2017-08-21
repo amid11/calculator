@@ -18,13 +18,16 @@ body {
    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
 }
 
-.clac-title p {
+.calc-title p {
    font-size: 25px;
    margin: 5px 0 7px 0;
    font-family: 'IM Fell DW Pica SC', serif;
 }
 
-.clac-monitor {
+.calc-monitor {
+   font-size: 36px;
+   display: flex;
+   justify-content: flex-end;
    margin: 0 auto;
    height: 70px;
    width: 90%;
