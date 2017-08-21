@@ -37,23 +37,27 @@ body {
    font-weight: bold;
    color: #fff;
    width: 85%;
-   border: 2px solid #bfbfaf;
-   /*height: 50%; */
+   /*border: 2px solid #bfbfaf;
+   height: 50%; */
    margin: 0 auto;
    height: auto;
-   
 }
 
-button {
+.button {
+   /* position: absolute;
+   display: inline-block; */
+   font-size: 24px;
+   /*color: #fff;*/
+   font-family: sans-serif;
    border-radius: 8px;
    border: none;
-   background-color: #3a3a3a;
+   /*background-color: #3a3a3a;*/
    margin: 4px 4px 4px 4px;
    height: 40px;
    width: 50px;
-   box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+   /*  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151; */
 }
 
-#plus {
-   
+#equal {
+   width: 94%;
 }
